@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Alatsi:400,500,600,700&display=swap');
+header
+{
+	position:relative;
+    top: 0px;
+    width: 100%;
+	background-color:#FBB117;
+	display:flex;
+}
+.inline
+	{
+	
+	display:inline-block;
+	}
+.logo
+{ 
+    float:left;
+    margin-left:0px;
+	margin-right:10px;
+    margin-top:2px;
+}
+.headp{
+	font-size: 2.5rem;
+	text-align: center;
+	width: 80%;
+    white-space: nowrap;
+    display: inline-block;
+    float: center;
+	color : white;
+	margin-top:70px;
+	margin-right:10px;
+	margin-left:0px;
+	
+}
+img
+{
+
+	border-radius: 80%;
+	height:200px;
+	width:200px;
+	font-weight: bold;
+	margin-top:10px;
+	margin-left:5px;
+	margin-right:0 px;
+}
+
+#register
+	{
+	margin-left: 400px;
+	margin-top: 20px;
+	}
+
+button
+	{
+	background-color:#ff0000;
+	color:white;
+	margin-left:0px;
+	margin-bottom:10px;
+	margin-right:1px;
+	width:70px;
+	height :40px;
+	}
+	
+
+form{
+	display:inline;
+}

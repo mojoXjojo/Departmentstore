@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+    margin:5px;
+    padding:2px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.headfrm
+{
+	position: relative;
+    margin:4px auto;
+    text-align: center;
+    padding: 0 10px;
+	font-size:1.5rem;
+	color: Black;
+	background-color:#FFDB58;
+	margin: 5px 450px 10px 400px;
+}
+.registerarea
+{
+	
+	margin: 5px 450px 30px 400px;
+	border:0.5px solid #ddd;
+	text-align:level;
+	font-size:1rem;
+	padding:10px;
+	position:auto;
+	background-color:#FFDB58;
+}
+.form-row
+{
+width : 100%;
+	
+}
+.col1{ 
+width : 30%;
+float : left;
+}
+
+
+.col2{ 
+width : 70%;
+display : inline;
+}
+
+#InputName1
+{
+	width:200px;
+}
+#InputEmail
+{
+	width:200px;
+}
+#Mobile
+{
+	width:100px
+}
+#country
+{
+	width:200px;
+}
+
+#InputPassword1
+{
+	width:200px;
+}
+#InputPassword2
+{
+	width:200px;
+}
+
+.submit-btn-area
+{
+	text-align:center;
+	margin:auto;
+	font-size:0.8rem;
+	padding:10px;
+	position:auto;
+	color:black;
+}
+#form_submit
+{
+	font-size:0.9rem;
+	margin:0;
+	position:center;
+	width:150px;
+    padding:7px;
+    font-weight:600;
+    border:none;
+    border-radius:10px;
+    outline:0;
+}
+#form_submit:hover {
+  background-color: Brown;
+  color: white;
+}

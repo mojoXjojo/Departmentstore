@@ -1,0 +1,481 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
+	
+    <title>Home page </title>
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../static/css/headr.css">
+	<link rel="stylesheet" href="../static/css/image.css">
+	<link rel="stylesheet" href="../static/css/Faq.css">
+    <link rel="stylesheet" href="../static/css/footr.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<script src="../static/js/Faq.js"></script>
+	
+
+  </head>
+  
+<body>
+
+<script>
+
+function opreg()
+{
+
+window.open("registration.html");
+}
+
+function oplog()
+{
+window.open("login.html");
+}
+
+
+</script>
+	<header>
+		<div class="inline">
+			<div class="logo">
+				<a href="Home.html">
+				<img  src="../static/img/Logo.png" /></a></div>
+		<p class="headp" p style="font-family:verdana"> Please register to see more exciting offers,<br>If already registered kindly login</p>
+			<button type="submit" name="Register" onclick="opreg()" id="register"> Register</button>
+				&nbsp;&nbsp;&nbsp;<button type="submit" name="login" onclick="oplog()" id="login"> Login</button> 
+	
+		</div>
+	</header>
+	
+		
+<div class ="Slider">
+<img class="image-container"  src="../static/img/salt.PNG" style="width:100%">
+<img class="image-container"  src="../static/img/frozen food.PNG" style="width:100%">
+<img class="image-container"  src="../static/img/dairy products.JPG" style="width:100%">
+<img class="image-container"  src="../static/img/tin.JPG" style="width:100%">
+<img class="image-container"  src="../static/img/atta_besan.JPG" style="width:100%">
+</div>
+
+
+
+
+<script>
+var indx = 0;
+autoslide();
+
+function autoslide() {
+  var i;
+  var x = document.getElementsByClassName("image-container");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  indx++;
+  if (indx > x.length) {indx = 1}    
+  x[indx-1].style.display = "block";  
+  setTimeout(autoslide, 2000); // image changes in every 5 seconds
+}
+</script>
+	
+
+<hr>	
+	<div class="products">
+		<div class="log">
+			<center><img src="../static/img/logo food.JPG">
+			<h2><u>Products</u></h2></center>
+				<br><br>
+	
+
+			<center><a href="cookingoil.html" class="card">
+			<img src="../static/img/cooking.JPG" alt="placeholder">
+				<div class="card-text">
+					Cooking Oil
+				</div>
+			</a>
+	
+			<a href="Tofee.html" class="card">
+			<img src="../static/img/toffe.JPG" alt="placeholder">
+				<div class="card-text">
+					Toffe
+				</div>
+			</a>
+			<a href="#" class="card">
+				<img src="../static/img/chips.JPG" alt="placeholder">
+					<div class="card-text">
+						Chips
+					</div>
+			</a>
+			<a href="#" class="card">
+			<img src="../static/img/jam.JPG" alt="placeholder">
+				<div class="card-text">
+					Jam & Ketchup
+				</div>
+			</a>
+			<a href="#" class="card">
+			<img src="../static/img/pet.PNG" alt="placeholder">
+				<div class="card-text">
+					Pet Food
+				</div>
+			</a>
+		</center>
+
+			<center><a href="#" class="card">
+			<img src="../static/img/dairy products.JPG" alt="placeholder">
+				<div class="card-text">
+					Dairy Products
+				</div>
+			</a>
+	
+			<a href="#" class="card">
+			<img src="../static/img/eggs_breads.PNG" alt="placeholder">
+				<div class="card-text">
+					Eggs & Breads
+				</div>
+			</a>
+			<a href="#" class="card">
+				<img src="../static/img/atta_besan.JPG" alt="placeholder">
+					<div class="card-text">
+						Atta and Besan
+					</div>
+			</a>
+			<a href="#" class="card">
+			<img src="../static/img/dry fruits.JPG" alt="placeholder">
+				<div class="card-text">
+					Dry Fruits
+				</div>
+			</a>
+			<a href="#" class="card">
+			<img src="../static/img/pulses.JPG" alt="placeholder">
+				<div class="card-text">
+					Pulses
+				</div>
+			</a>
+		</center>
+
+		<center><a href="#" class="card">
+		<img src="../static/img/frozen food.PNG" alt="placeholder">
+			<div class="card-text">
+				Frozen Food
+			</div>
+		</a>
+		<a href="#" class="card">
+		<img src="../static/img/sugar.JPG" alt="placeholder">
+			<div class="card-text">
+				Sugar
+			</div>
+		</a>
+		<a href="#" class="card">
+		<img src="../static/img/tin.JPG" alt="placeholder">
+			<div class="card-text">
+				Tin Food
+			</div>
+		</a>
+		<a href="#" class="card">
+		<img src="../static/img/salt.PNG" alt="placeholder">
+			<div class="card-text">
+				Salt
+			</div>
+		</a>
+		<a href="#" class="card">
+		<img src="../static/img/preservative.JPG" alt="placeholder">
+			<div class="card-text">
+				Preservatives
+			</div>
+		</a>
+		</center>
+  
+		<center><a href="#" class="card">
+		<img src="../static/img/energy drinks.JPG" alt="placeholder">
+			<div class="card-text">
+				Energy Drinks
+			</div>
+		</a>
+		<a href="#" class="card">
+		<img src="../static/img/pasta.JPG" alt="placeholder">
+			<div class="card-text">
+				Pasta & Macaroni
+			</div>
+		</a>
+		<a href="#" class="card">
+		<img src="../static/img/soup.JPG" alt="placeholder">
+			<div class="card-text">
+				Soup and noodles
+			</div>
+		</a>
+
+		</center>
+	</div>
+	</div>
+<hr>
+  
+		<div class="Bevarages">
+			<div class="bev">
+				<center><img src="../static/img/bev.JPG">
+				<h2><u>Bevarages</u></h2></center>
+				<br> <br>
+			<center><a href="#" class="card">
+			<img src="../static/img/juices.JPG" alt="placeholder">
+				<div class="card-text">
+					Frootie & Real juice
+				</div>
+			</a>
+			<a href="#" class="card">
+			<img src="../static/img/tea.JPG" alt="placeholder">
+				<div class="card-text">
+					Tea & Coffe
+				</div>
+			</a>
+			<a href="#" class="card">
+			<img src="../static/img/cold drink.JPG" alt="placeholder">
+				<div class="card-text">
+					Cold Drinks
+				</div>
+			</a>
+			<a href="#" class="card">
+			<img src="../static/img/mineral water.JPG" alt="placeholder">
+				<div class="card-text">
+					Water and Soda
+				</div>
+			<a href="#" class="card">
+			<img src="../static/img/thandai.JPG" alt="placeholder">
+				<div class="card-text">
+					Thandai,Squashes
+				</div>
+			</a>
+  </center>
+		</div>
+		</div>
+<hr>
+	
+			<div class="Personal care">
+				<div class="personal care">
+				<center><img src="../static/img/personal log.JPG">
+				<h2><u>Personal Care</u></h2></center>
+				<br> <br>
+	
+			<center><a href="#" class="card">
+			<img src="../static/img/oral.JPG" alt="placeholder">
+				<div class="card-text">
+					Oral Care
+				</div>
+			</a>
+			<a href="#" class="card">
+			<img src="../static/img/body care.JPG" alt="placeholder">
+				<div class="card-text">
+					Body Care
+				</div>
+			</a>
+			<a href="#" class="card">
+			<img src="../static/img/healthcare.JPG" alt="placeholder">
+				<div class="card-text">
+					Health Care
+				</div>
+			</a>
+			<a href="#" class="card">
+			<img src="../static/img/Baby Care.JPG" alt="placeholder">
+				<div class="card-text">
+					Baby Care
+				</div>
+			<a href="#" class="card">
+			<img src="../static/img/hand wash.JPG" alt="placeholder">
+				<div class="card-text">
+					Hand Wash,Soups
+				</div>
+			</a>
+		</div>
+	</div>
+
+			<center><a href="#" class="card">
+			<img src="../static/img/mens grooming.JPG" alt="placeholder">
+				<div class="card-text">
+					Men Grooming
+				</div>
+			</a>
+			<a href="#" class="card">
+			<img src="../static/img/shampo.JPG" alt="placeholder">
+				<div class="card-text">
+					Shampoo,Oil,colour
+				</div>
+			</a>
+			<a href="#" class="card">
+			<img src="../static/img/face.JPG" alt="placeholder">
+				<div class="card-text">
+					Face Care
+				</div>
+			</a>
+			<a href="#" class="card">
+			<img src="../static/img/sanitry.JPG" alt="placeholder">
+				<div class="card-text">
+					Sanitry and Napkins
+				</div>
+				<a href="#" class="card">
+				<img src="../static/img/talcum.JPG" alt="placeholder">
+					<div class="card-text">
+						Talcum and Deodrants
+					</div>
+				</a>
+			</center>
+<hr>
+				<div class="home care">
+					<div class="home care">
+						<center><img src="../static/img/home.JPG">
+						<h2><u>Home Care</u></h2></center>
+						<br> <br>
+				<center><a href="#" class="card">
+				<img src="../static/img/washer.JPG" alt="placeholder">
+					<div class="card-text">
+						Dish Washer
+					</div>
+				</a>
+				<a href="#" class="card">
+				<img src="../static/img/fabric.JPG" alt="placeholder">
+					<div class="card-text">
+						Fabric Care,Vanish
+					</div>
+				</a>
+				<a href="#" class="card">
+				<img src="../static/img/detergent.JPG" alt="placeholder">
+					<div class="card-text">
+						Detergents and Surfs
+					</div>
+				</a>
+				<a href="#" class="card">
+				<img src="../static/img/cell.JPG" alt="placeholder">
+					<div class="card-text">
+						Cells and battries
+					</div>
+				<a href="#" class="card">
+				<img src="../static/img/floor.JPG" alt="placeholder">
+					<div class="card-text">
+						Floor Cleaner
+					</div>
+				</a>
+
+				<center><a href="#" class="card">
+				<img src="../static/img/kitchen.JPG" alt="placeholder">
+					<div class="card-text">
+						kitchen ware
+					</div>
+				</a>
+				</center>
+			</div>
+		</div>
+<hr>
+
+
+<center><u><h2>FAQs</h2></u></center>
+<button class="accordion">What is Grocery Gurus</button>
+	<div class="panel">
+		<p>Grocery Gurus is a platform for restaurants. It allows you to purchase:
+		<li>The freshest, most high quality ingredients available on the market
+			Antibiotic residue-free eatable products, which is better for your customers than regular market products</li>
+			<li>Eco-friendly packaging (which is recyclable and doesn't harm the environment) for deliveries</li>
+			<li>Every single item sold on Suvidha is based on strict industry guidelines, ensuring that you get the best products at competitive prices, and that your customers benefit from these, too</li>.</p>
+	</div>
+
+<button class="accordion">Why is Grocery Gurus good for my resturant business?</button>
+	<div class="panel">
+		<p><li>We have verified, well-known sellers that are looking to establish long-term partnerships</li>
+			<li>We provide access to a large catalogue of products that you can search / order quickly</li>
+			<li>Our packaging fits the needs of a wide range of common cuisines</li>
+			<li>Our prices are competitive and our deliveries are on time</li></p>
+	</div>
+
+<button class="accordion">What makes Grocery Gurus products better than the produce i can sourse elsewhere?</button>
+	<div class="panel">
+		<p>We understand the importance of consistency.Grocery Gurus works directly with a large network of professionals that consists of farmers, mills, producers, and processors (in the case of poultry). We put a great deal of effort into maintaining our relationships with the original source of each of our products, in order to ensure we offer you the freshest, most high quality produce, and that we do it consistently.</p>
+	</div>
+
+<button class="accordion">Modes of payment</button>
+	<div class="panel">
+		<p>We accept card as well as online sourse of payment through your bank account.</p>
+	</div>
+<button class="accordion">What kind of products can I buy through Grocery Gurus?</button>
+	<div class="panel">
+		<p>Through this website you can purchase: Vegetables and Fruits, Poultry (including antibiotic residue-free chicken), Groceries, Meats, Seafood, Dairy, Beverages, and Eco-friendly Packaging.</p>
+	</div>
+
+<hr>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+
+
+
+
+<footer>
+  <div class="main-content">
+        <div class="left box">
+          <h2>About us</h2>
+			<div class="content">
+				<p>This is a online grocery shoping website,we are famous for our selected rice brands and good quality dryfruits, pakaging on customer demand is also available </p>
+					<div class="social">
+						<a href=""><span class="fab fa-facebook-f"></span></a>
+						<a href=""><span class="fab fa-instagram"></span></a>
+            
+					</div>
+			</div>
+		</div>
+
+		<div class="center box">
+		<h2>Address</h2>
+			<div class="content">
+				<div class="place">
+					<span class="fas fa-map-marker-alt"></span>
+					<span class="text">Saharunpur Chowk, Dehradun</span>
+				</div>
+				<div class="phone">
+					<span class="fas fa-phone-alt"></span>
+					<span class="text">9634370170</span>
+				</div>
+				<div class="email">
+					<span class="fas fa-envelope"></span>
+					<span class="text">mail.raghavg@gmail.com</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="right box">
+		<h2>Contact us</h2>
+			<div class="content">
+				<form action="#">
+				<div class="email">
+					<div class="text">
+						Email</div>
+							<input type="email" cols="100" required>
+					</div>
+				<div class="msg">
+					<div class="text">
+						Message</div>
+							<textarea id=".msgForm" rows="3" cols="60" required></textarea>
+              
+						<br />
+				<div class="btn">
+					<button type="submit">Send</button>
+				</div>
+				<div class="bottom">
+							<center>
+							<span class="far fa-copyright"></span> 2020 All rights reserved.
+							</center>
+				</div>
+				</div>
+			</div>
+		</div>
+	
+	</footer>	
+	
+</body>
+	
+</html>		

@@ -1,0 +1,54 @@
+
+.Slider
+{
+	width:20%;
+	height:100%;
+	
+	
+}
+
+body{
+  margin:10px;
+}
+.card {
+  height: 220px;
+  width: 200px;
+  border: 1px solid #eee;
+  background-color: #eee;
+  display: inline-block;
+  margin: 5px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  transition:250ms all ease-in-out;
+}
+hr{
+height : 4px;
+margin-top : 50px;
+margin-bottom : 50px;
+	
+}
+
+.card:hover{
+  box-shadow: 0 0 10px red;
+  transform: scale(1.030);
+}
+
+.card:hover .card-text {
+  text-decoration: none;
+  
+}
+
+.card-text {
+  padding-bottom: 5px;
+  padding-top: 2px;
+  font-weight: 900;
+	color:Red;
+  
+}
+
+h2 u{
+	color:Black;
+	
+}
